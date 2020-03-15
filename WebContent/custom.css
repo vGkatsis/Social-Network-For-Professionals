@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+html,body {
+  height: 100%;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.dropdown-menu-center {
+	left: 50%;
+   transform: translateX(-50%);
+}
+
+.input-center{
+	width: 450px;
+	height: 100px;
+	left: 38%;
+}
+
+.input-center-form{
+	width: 450px;
+	height: 100px;
+	left: 1.5%;
+}
+
+.btn-defoutline{
+	border: 1px solid white;
+	background-color: #113377;
+}
+
+.btn-width{
+	width: 200px;
+}
+
+.btn-width{
+	max-width: 500px;
+	width: 400px;
+}
+
+.container-search-right{
+	width: 400px;
+	left: auto;
+}
+
+.container-list-right{
+	margin: 0 auto;
+}
+
+.card-fill{
+	position: absolute;
+	height: 300px;
+	
+}
+
+.dropdown-item-center{
+	text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 30;
+    left: 0;
+    height: 100vh;
+    background: #1e90ff;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#sidebar ul p {
+	padding: 10px;
+	background: #113377;
+    color: #000000;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.0em;
+    display: block;
+	color: #000000;
+}
+#sidebar ul li a:hover {
+    color: #FFFFFF;
+    background: #113377;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #FFFFFF;
+    background: #113377;
+}
+ul ul a {
+    padding-left: 30px;
+    background: #99d6ff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1e90ff;
+}
+
+#user-message {
+	left: 50%;
+}
+
+#adminhover.btn:hover {
+    color: #000000;
+    background: #FFFFFF;
+}

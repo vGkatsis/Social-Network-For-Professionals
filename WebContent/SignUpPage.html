@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<title>Sign Up</title>
+</head>
+
+<body>
+
+	<h1 class="text-center">Fill In The Form To Sign Up</h1>
+<div class="d-flex justify-content-center">	
+	<div class="card border-dark mb3" style="width: 25rem;">
+		<div class="card-body offset-1">
+			<form  action="Register" method="POST">
+				<div class="form-group row">
+					<label for="inputemail" class="col-sm-4 col-form-label">Email*</label>
+					<div class="col-sm-7">
+			      		<input type="email" class="form-control" id="inputemail" placeholder="youremail@e.g.com" name="email">
+			    	</div>
+				</div>
+				<div class="form-group row">
+			    	<label for="inputpassword" class="col-sm-4 col-form-label">Password*</label>
+			    	<div class="col-sm-7">
+			      		<input type="password" class="form-control" id="inputpassword" placeholder="Password" name="password">
+			    	</div>
+			  	</div>
+				<div class="form-group row">
+			    	<label for="inputpassword2" class="col-sm-4 col-form-label">Password (Repeat)*</label>
+			    	<div class="col-sm-7">
+			      		<input type="password" class="form-control" id="inputpassword2" placeholder="Password(Repeat)" name="rpassword">
+			    	</div>
+			  	</div>
+			  	<div class="form-group row">
+			    	<label for="inputname" class="col-sm-4 col-form-label">Name*</label>
+			    	<div class="col-sm-7">
+			      		<input type="text" class="form-control" id="inputname" placeholder="Name" name="name">
+			    	</div>
+			  	</div>
+			  	<div class="form-group row">
+			    	<label for="inputsurname" class="col-sm-4 col-form-label">Surname*</label>
+			    	<div class="col-sm-7">
+			      		<input type="text" class="form-control" id="inputsurname" placeholder="Surname" name="surname">
+			    	</div>
+			  	</div>
+			  	<div class="form-group row">
+			    	<label for="inputtelnumber" class="col-sm-4 col-form-label">Tel.Number</label>
+			    	<div class="col-sm-7">
+			      		<input type="number" class="form-control" id="inputtelnumber" placeholder="Tel.Number" name="number">
+			    	</div>
+			  	</div>
+			  	<div class="form-group">
+    				<label for="imagefile">Select an image</label>
+    				<input type="file" class="form-control-file" id="imagefile" name="image" value="null">
+  				</div>
+			  	<div class="text-center">
+			  	<button type="submit" class="btn btn-primary">Sign Up</button>
+				</div>
+				<a role="button" class="btn btn-link" href="index.html">Back To Login</a>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

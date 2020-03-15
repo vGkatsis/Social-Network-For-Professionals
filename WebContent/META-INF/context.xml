@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/LinkedIn">
+	
+	<Resource name="jdbc/linkedb" type="javax.sql.DataSource" 
+			  username="user" password=""
+			  driverClassName="com.mysql.jdbc.Driver"
+			  url="jdbc:mysql://localhost:3306/linkedb"
+			  maxActive="20" maxIdle="10" maxWaits="10000"/>
+
+</Context>
